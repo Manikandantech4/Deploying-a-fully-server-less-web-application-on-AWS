@@ -17,7 +17,7 @@ Tools:
 Steps:
 Create a IAM role for lambda to access dynamobd. Select LambdaBasicExecutionRole and DynamodbFullAccess. 
 
-Create a lambda funciton: Go to lambda, set any function name, select runtime python latest version. Under change default execution role, select the created IAM role, then click create. Upload the functioncode zip file.
+Create a lambda funciton: Go to lambda, set any function name, select runtime python latest version. Under change default execution role, select the created IAM role, then click create. Upload the functioncode zip file and hit deploy.
 
 <img width="1154" height="609" alt="Screenshot 2025-07-28 at 6 59 56 PM" src="https://github.com/user-attachments/assets/4490d32a-0dff-4d7c-955b-304b8db3d603" />
 
